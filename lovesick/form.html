@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/logo.png" type="image/png" />
+  <title>Lovesick</title>
+</head>
+<body>
+  <center>
+    <header>
+      <a href="index.html">
+        <img src="assets/logo.png" width="150px" alt="">
+      </a>
+      <p><i><b>☀️ Be unique and shine ☀️</b></i></p>
+
+      <div >
+        <a href="index.html">Home</a>
+        &nbsp;
+        &nbsp;
+        <a href="index.html#product">Our Products</a>
+        &nbsp;
+        &nbsp;         
+        <a href="index.html#special-product">Special Collection</a>
+        &nbsp;
+        &nbsp;     
+        <a href="index.html#contact">Contact</a>
+        &nbsp;
+        &nbsp;     
+        <a href="form.html">Shop now</a>
+
+      </div>
+    </header>
+    <br>
+    <br>
+
+    <img src="assets/IMG_0941.png" width="80%" alt="">
+
+    <br>
+    <br>
+
+    <main style="width: 700px;">
+      <section id="form-order" width="500px">
+        <h1>🛒 Order Form 🛒</h1>
+  
+        <form action="form-processing" method="post" id="item-list">
+          <fieldset>
+            <legend><strong>PERSONAL INFORMATION</strong></legend>
+            <label for="fname">First name: </label>
+            <input type="text" id="fname" name="First name" required>
+            <br>
+            <br>
+            <label for="lname">Last name: </label>
+            <input type="text" id="lname" name="Last name" required>
+            <br>
+            <br>
+            <label for="dob">Date of birth:</label>
+            <input type="date" id="dob" name="Date of birth" required>
+            <br>
+          </fieldset>
+
+          <br>
+          <br>
+
+          <fieldset>
+            <legend><strong>SHIPPING INFORMATION</strong></legend>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="Address" required>
+            <br>
+            <br>
+            <label for="district">District:</label>
+            <select name="District" id="district">
+              <option value="">Select the district</option>
+              <option value="1">District 1</option>
+              <option value="2">District 2</option>
+              <option value="3">District 3</option>
+            </select>
+
+            <br>
+            <br>
+            <label for="city">City:</label>
+            <select name="City" id="city">
+              <option value="">Select a city</option>
+              <option value="HCMC">Ho Chi Minh</option>
+              <option value="Hanoi">Ha Noi</option>
+              <option value="Da Nang">Da Nang</option>
+            </select>
+
+            <br>
+            <br>
+            <label for="postcode">Postcode</label>
+            <input type="text" id="postcode" name="Postcode" required>
+          </fieldset>
+
+          <br>
+          <br>
+          <fieldset>
+            <legend><strong>PURCHASE OPTIONS</strong></legend>
+            <p><strong>Select product(s): </strong></p>
+            <table>
+              <tr>
+                <td>
+                  <input type="checkbox" name="Product" value="Pink heart earrings"> Pink heart earrings <br>
+                </td>
+
+                <td>
+                  <input type="checkbox" name="Product" value="Pearl ear cuff"> Pearl ear cuff <br>
+                </td>
+
+                <td>
+                  <input type="checkbox" name="Product" value="Crystal earrings"> Crystal earrings <br>
+                </td>
+
+                <td>
+                  <input type="checkbox" name="Product" value="Roll earrings"> Roll earrings <br>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <input type="checkbox" name="Product" value="Gold necklace"> Gold necklace <br>
+                </td>
+
+                <td>
+                  <input type="checkbox" name="Product" value="Pearl bracelet"> Pearl bracelet <br>
+                </td>
+
+                <td>
+                  <input type="checkbox" name="Product" value="Pearl hair clip"> Pearl hair clip <br>
+                </td>
+
+                <td>
+                  <input type="checkbox" name="Product" value="Gem hair clip"> Gem hair clip <br>
+                </td>
+              </tr>
+
+              <tr>
+                <td colspan="4">
+                  <center>
+                    <p><strong>Dreamee Collection</strong></p>
+                  </center>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <input type="checkbox" name="Product" value="Princess earrings"> Princess earrings <br>
+                </td>
+
+                <td>
+                  <input type="checkbox" name="Product" value="Heart earrings"> Heart earrings <br>
+                </td>
+
+                <td>
+                  <input type="checkbox" name="Product" value="Blue sky earrings"> Blue sky earrings <br>
+                </td>
+
+                <td>
+                  <input type="checkbox" name="Product" value="Moon and star earrings"> Moon and star earrings <br>
+                </td>
+
+              </tr>
+                <td>
+                  <input type="checkbox" name="Product" value="Two heart earrings"> Two heart earrings <br>
+                </td>
+
+                <td>
+                  <input type="checkbox" name="Product" value="Pink flower earrings"> Pink flower earrings <br>
+                </td>
+
+                <td>
+                  <input type="checkbox" name="Product" value="Princess earrings"> Princess earrings <br>
+                </td>
+
+                <td>
+                  <input type="checkbox" name="Product" value="Heart earrings"> Heart earrings <br>
+                </td>
+              <tr>
+              </table>
+          </fieldset>
+
+          <br>
+          <br>     
+            <input type="submit" value="Order Now!">
+        </form>
+      </section>
+    </main>
+  </center>
+</body>
+</html>
